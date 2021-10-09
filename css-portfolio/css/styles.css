@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 /*
 Color palette:
 
@@ -12,15 +13,59 @@ Color palette:
   margin: 2px 3px 5px 5px; /* top right bottom left */
   padding: 10;
   background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 body {
   color: #343434
 }
+
 img {
   width: 300px;
 }
 
+.grow { 
+  transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+  transform: scale(1.1); 
+}
+
+.page__title {
+  letter-spacing: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 180px 0px 25px 100px;
+}
+
+.body__text {
+  letter-spacing: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+  line-height: 145%;
+  padding: 0px 860px 50px 100px;
+}
+
+.body__subtitle {
+  letter-spacing: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+  line-height: 145%;
+  padding: 0px 860px 0px 100px;
+}
 
 /* Navigation bar ----------------------- */
 header {
@@ -69,7 +114,7 @@ li, a {
 }
 
 button {
-  padding: 0px 0px;
+  padding: 5px 0px 2px 0px;
   border: none;
   background: none;
   vertical-align: -webkit-baseline-middle;
@@ -77,21 +122,21 @@ button {
 
 #close-image img {
   display: inline-block;
-  height: 20px;  
-  width: 20px;
+  height: 18px;  
+  width: 18px;
 }
 
 #close-CSS {
   background-image: url( 'css-portfolio/images/github-mark.png' );
-  background-size: 20px 20px;
-  height: 20px;  
-  width: 20px;
+  background-size: 18px 18px;
+  height: 18px;  
+  width: 18px;
 }
 
 /* Home ----------------------- */
 
 .job__title {
-  padding: 250px 0px 100px 40px;
+  padding: 250px 0px 100px 25px;
   line-height: 115%;
   letter-spacing: 1px;
   font-family: "Source Sans Pro", sans-serif;
